@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSMutableArray *array;
+}
 
+@property (weak, nonatomic) IBOutlet UIImageView *oreoIMg;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageCtrl;
+
+- (void) showImg;
 
 @end
 
